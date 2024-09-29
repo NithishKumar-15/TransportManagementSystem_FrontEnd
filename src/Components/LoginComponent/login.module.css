@@ -10,3 +10,25 @@
     background-size: cover;
     background-position:4px;
 }
+
+.flexSwitchCheckDefault{
+    position:absolute;
+    top: 30px;
+    left:40px;
+}
+
+/* @media (max-width:1132px){
+    .flexSwitchCheckDefault{
+        position:absolute;
+        top: 30px;
+        left:800px;
+    }
+}
+
+@media (max-width:1058px){
+    .flexSwitchCheckDefault{
+        position:absolute;
+        top: 30px;
+        left:40px;
+    }
+} */

@@ -1,12 +1,11 @@
 import { useEffect } from "react";
 import style from "./adminHomePage.module.css"
 import { useDispatch, useSelector } from "react-redux";
-import adminReducer from "../../Store/Reducers/adminHomePageReducer";
 
 const AdminHomePage = () => {
 
     const {page}=useSelector((state)=>state.adminReducer)
-
+    
     const dispatch=useDispatch()
 
     useEffect(()=>{
